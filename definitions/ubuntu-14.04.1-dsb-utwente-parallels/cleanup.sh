@@ -13,4 +13,9 @@ rm -rf /dev/.udev/
 rm /lib/udev/rules.d/75-persistent-net-generator.rules
 
 echo "pre-up sleep 2" >> /etc/network/interfaces
+
+apt-get -y remove linux-headers-$(uname -r) build-essential
+apt-get autoremove
+
+rm /home/vagrant/*
 exit

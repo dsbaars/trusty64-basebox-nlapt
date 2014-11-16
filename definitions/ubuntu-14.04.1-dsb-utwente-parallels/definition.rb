@@ -35,7 +35,6 @@ Veewee::Session.declare({
    "apt.sh",
    "sudo.sh",
    "vagrant.sh",
-   "ruby.sh",
    "parallels.sh",
    "cleanup.sh"
   ],
