@@ -1,7 +1,14 @@
 trusty64-veewee-nlapt
 =====================
 
-Ubuntu 14.04 LTS Basebox generator
+Ubuntu 14.04(.1) LTS Basebox generator (Vagrant)
+
+```sh
+├── ubuntu-14.04-dsb-utwente-parallels       # Ubuntu 14.04 for Parallels 9.0 with all provisioners
+├── ubuntu-14.04-dsb-utwente-vbox            # Ubuntu 14.04 for Virtualbox with all provisioners
+├── ubuntu-14.04.1-beaker-amd64              # Ubuntu 14.04.1 for Parallels 10, optimized for use with Beaker
+└── ubuntu-14.04.1-dsb-utwente-parallels     # Ubuntu 14.04.1 for Parallels 10, without provisioners
+```
 
 #### Requirements
 - vagrant: http://www.vagrantup.com/downloads.html
